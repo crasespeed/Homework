@@ -1,2 +1,2 @@
-# Homework_1
+# Homework
 Homework_1
