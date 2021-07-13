@@ -9,3 +9,4 @@ with open('file_4.txt', 'r') as file:
 
 with open('file_4_1.txt', 'w',) as file:
     file.writelines('\n'.join(new_file))
+
