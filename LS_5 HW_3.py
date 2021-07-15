@@ -1,4 +1,3 @@
-# with open('file_3.txt', 'w+') as file_3:
 
 with open('file_3.txt', 'r') as file:
     salary = []
