@@ -12,8 +12,7 @@ class Position(Worker):
         self.total_profit = self.profit + self.bonus
         return ', доход с учётом премии: {}'.format(self.total_profit)
 w = Worker()
-print(w.surname,w.name,''
-                       '\n', w.position, w.profit)
+print(w.surname,w.name,'' '\n', w.position, w.profit)
 p = Position()
 print('Общая информация по сотруднику: ')
 print(p.get_full_name() + str(p.get_full_profit()) + ' ' + str(w._income))
