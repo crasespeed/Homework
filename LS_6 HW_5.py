@@ -12,7 +12,6 @@ class Pen(Stationery):
     def draw(self):
         return f'Выбрал {self.title}. Отрисовка ручкой.'
 
-
 class Pencil(Stationery):
     def __init__(self, title):
         super().__init__(title)
